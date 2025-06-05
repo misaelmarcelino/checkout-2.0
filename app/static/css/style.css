@@ -1,0 +1,28 @@
+:root {
+  --main-primary-color: #D60B52;
+  --main-secondary-color: #E5729B;
+  --main-tertiary-color: #91103F;
+  --main-quartiary-color: #510A27;
+  --main-bg-color: #F5F5F5;
+  --main-text-color: #333333;
+  --main-text-color-light: #FFFFFF;
+  --main-bg-color-dark: #2C2C2C;
+  --main-text-color-dark: #F5F5F5;
+}
+
+
+.checkout-header{
+  background-color: var(--main-primary-color);
+  color: var(--main-text-color-light);
+}
+
+.brand-logo {
+  width: 150px;
+  height: auto;
+}
+.nav-link {
+  color: var(--main-text-color-light);
+  text-decoration: none;  
+  font-weight: 600;
+  font-size: 1.2rem;
+}
